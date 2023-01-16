@@ -1,0 +1,6 @@
+framework module Pods_AsticsAssessment {
+  umbrella header "Pods-AsticsAssessment-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AsticsAssessmentApp: App {
+    
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ViewModel(dataController: dataController))
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

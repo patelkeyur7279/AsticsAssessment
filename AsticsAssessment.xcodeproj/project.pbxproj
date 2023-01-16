@@ -11,6 +11,15 @@
 		129232C82975420000F2D36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232C72975420000F2D36F /* ContentView.swift */; };
 		129232CA2975420200F2D36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129232C92975420200F2D36F /* Assets.xcassets */; };
 		129232CD2975420200F2D36F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129232CC2975420200F2D36F /* Preview Assets.xcassets */; };
+		129232D82975435A00F2D36F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232D72975435A00F2D36F /* ServiceManager.swift */; };
+		129232DA2975436F00F2D36F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232D92975436F00F2D36F /* Router.swift */; };
+		129232DC29756BDE00F2D36F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232DB29756BDE00F2D36F /* ViewModel.swift */; };
+		129232DF29756C1700F2D36F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232DE29756C1700F2D36F /* Constants.swift */; };
+		129232E129756D3E00F2D36F /* StructUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232E029756D3E00F2D36F /* StructUniversity.swift */; };
+		129232E5297572B300F2D36F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129232E4297572B300F2D36F /* DataController.swift */; };
+		129232E8297572DB00F2D36F /* UniversityData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 129232E6297572DB00F2D36F /* UniversityData.xcdatamodeld */; };
+		1295D5E42975E99300F24101 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1295D5E32975E99300F24101 /* ChildView.swift */; };
+		FAAE58A2EC05BDDFADC3DFA6 /* Pods_AsticsAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8DA8014036A0B0A3F96593 /* Pods_AsticsAssessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,18 @@
 		129232C72975420000F2D36F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		129232C92975420200F2D36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		129232CC2975420200F2D36F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		129232D72975435A00F2D36F /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		129232D92975436F00F2D36F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		129232DB29756BDE00F2D36F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		129232DE29756C1700F2D36F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		129232E029756D3E00F2D36F /* StructUniversity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructUniversity.swift; sourceTree = "<group>"; };
+		129232E229756E7B00F2D36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		129232E4297572B300F2D36F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		129232E7297572DB00F2D36F /* University.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = University.xcdatamodel; sourceTree = "<group>"; };
+		1295D5E32975E99300F24101 /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		261936995E9A6555E10E5B5B /* Pods-AsticsAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsticsAssessment.debug.xcconfig"; path = "Target Support Files/Pods-AsticsAssessment/Pods-AsticsAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		640C3F2260D6413A1E4CB828 /* Pods-AsticsAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsticsAssessment.release.xcconfig"; path = "Target Support Files/Pods-AsticsAssessment/Pods-AsticsAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		EC8DA8014036A0B0A3F96593 /* Pods_AsticsAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsticsAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAE58A2EC05BDDFADC3DFA6 /* Pods_AsticsAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +59,8 @@
 			children = (
 				129232C42975420000F2D36F /* AsticsAssessment */,
 				129232C32975420000F2D36F /* Products */,
+				C10C9CFB3FF2527C2384C343 /* Pods */,
+				C4F0CFCA97B0591E274E50D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +75,14 @@
 		129232C42975420000F2D36F /* AsticsAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				129232E229756E7B00F2D36F /* Info.plist */,
 				129232C52975420000F2D36F /* AsticsAssessmentApp.swift */,
-				129232C72975420000F2D36F /* ContentView.swift */,
+				129232D52975430500F2D36F /* Model */,
+				129232D3297542F600F2D36F /* View */,
+				129232D4297542FE00F2D36F /* ViewModel */,
+				129232D62975431200F2D36F /* Networking */,
+				129232E32975729600F2D36F /* DB */,
+				129232DD29756C0A00F2D36F /* Utils */,
 				129232C92975420200F2D36F /* Assets.xcassets */,
 				129232CB2975420200F2D36F /* Preview Content */,
 			);
@@ -67,6 +97,74 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		129232D3297542F600F2D36F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				129232C72975420000F2D36F /* ContentView.swift */,
+				1295D5E32975E99300F24101 /* ChildView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		129232D4297542FE00F2D36F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				129232DB29756BDE00F2D36F /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		129232D52975430500F2D36F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				129232E029756D3E00F2D36F /* StructUniversity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		129232D62975431200F2D36F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				129232D72975435A00F2D36F /* ServiceManager.swift */,
+				129232D92975436F00F2D36F /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		129232DD29756C0A00F2D36F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				129232DE29756C1700F2D36F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		129232E32975729600F2D36F /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				129232E4297572B300F2D36F /* DataController.swift */,
+				129232E6297572DB00F2D36F /* UniversityData.xcdatamodeld */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		C10C9CFB3FF2527C2384C343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261936995E9A6555E10E5B5B /* Pods-AsticsAssessment.debug.xcconfig */,
+				640C3F2260D6413A1E4CB828 /* Pods-AsticsAssessment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4F0CFCA97B0591E274E50D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8DA8014036A0B0A3F96593 /* Pods_AsticsAssessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129232D02975420200F2D36F /* Build configuration list for PBXNativeTarget "AsticsAssessment" */;
 			buildPhases = (
+				F97982EA665D7952C6F81DD7 /* [CP] Check Pods Manifest.lock */,
 				129232BE2975420000F2D36F /* Sources */,
 				129232BF2975420000F2D36F /* Frameworks */,
 				129232C02975420000F2D36F /* Resources */,
+				140C167C5CE009FE503E17BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +232,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140C167C5CE009FE503E17BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsticsAssessment/Pods-AsticsAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsticsAssessment/Pods-AsticsAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsticsAssessment/Pods-AsticsAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97982EA665D7952C6F81DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsticsAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		129232BE2975420000F2D36F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129232DC29756BDE00F2D36F /* ViewModel.swift in Sources */,
+				129232DA2975436F00F2D36F /* Router.swift in Sources */,
 				129232C82975420000F2D36F /* ContentView.swift in Sources */,
 				129232C62975420000F2D36F /* AsticsAssessmentApp.swift in Sources */,
+				129232D82975435A00F2D36F /* ServiceManager.swift in Sources */,
+				129232E5297572B300F2D36F /* DataController.swift in Sources */,
+				129232E8297572DB00F2D36F /* UniversityData.xcdatamodeld in Sources */,
+				129232DF29756C1700F2D36F /* Constants.swift in Sources */,
+				129232E129756D3E00F2D36F /* StructUniversity.swift in Sources */,
+				1295D5E42975E99300F24101 /* ChildView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +413,7 @@
 		};
 		129232D12975420200F2D36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261936995E9A6555E10E5B5B /* Pods-AsticsAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -271,6 +422,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsticsAssessment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsticsAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,6 +443,7 @@
 		};
 		129232D22975420200F2D36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640C3F2260D6413A1E4CB828 /* Pods-AsticsAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AsticsAssessment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsticsAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +493,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		129232E6297572DB00F2D36F /* UniversityData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				129232E7297572DB00F2D36F /* University.xcdatamodel */,
+			);
+			currentVersion = 129232E7297572DB00F2D36F /* University.xcdatamodel */;
+			path = UniversityData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 129232BA2975420000F2D36F /* Project object */;
 }
